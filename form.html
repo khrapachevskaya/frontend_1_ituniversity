@@ -29,23 +29,36 @@
             <tr>
                 <td>Ваше любимое животное</td>
                 <td>
-                    <input type="radio" name="pet" value="cat" id="pet_cat"/><label for="pet_cat">Кот</label>
+                    <input type="radio" name="pet" value="cat" id="pet_cat" checked/><label for="pet_cat">Кот</label>
                 <br><input type="radio" name="pet" value="dog" id="pet_dog"/><label for="pet_dog">Собака</label>
                 <br><input type="radio" name="pet" value="turtle" id="pet_turtle"/><label for="pet_turtle">Черепаха</label>
                 <br><input type="radio" name="pet" value="mouse" id="pet_mouse"/><label for="pet_mouse">Мышь</label>
                 </td>
             </tr>
             <tr>
-                <td>9</td>
-                <td>10</td>
+                <td>Месяц Вашего рождения</td>
+                <td>
+                    <select name="month" id="" size="4" multiple="YES">
+                        <option value="01">Январь</option>
+                        <option value="02">Февраль</option>
+                        <option value="03">Март</option>
+                        <option value="04">Апрель</option>
+                        <option value="05">Май</option>
+                        <option value="06">Июнь</option>
+                    </select>
+                </td>
             </tr>
             <tr>
-                <td>11</td>
-                <td>12</td>
+                <td>Ваш отзыв</td>
+                <td>
+                    <textarea name="review" id="" cols="30" rows="10"></textarea>
+                </td>
             </tr>
             <tr>
-                <td>13</td>
-                <td>14</td>
+                <td>-</td>
+                <td>
+                    <input type="submit" value="OK"/>
+                </td>
             </tr>
         </table>
     </form>
