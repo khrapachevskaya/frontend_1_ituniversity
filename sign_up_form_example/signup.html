@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Avid</title>
+    <style>
+        .form-wrapper {
+            width: 40%;
+            border: 1px solid lightblue;
+            box-shadow: 0px 0px 5px 5px lightblue;
+            padding: 10px 30px 20px;
+
+            /*background: linear-gradient(to bottom, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); *//* W3C */
+            background: linear-gradient(to bottom, rgba(125,127,124,1) 0%,rgba(224,239,249,0) 100%); /* W3C */
+        }
+
+        .form-header {
+            font-face: 'Calibri, sans-serif';
+            color: rgb(30,20,180);
+            text-align: center;
+
+            border-bottom: 2px dashed lightblue;
+        }
+        
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        .form-row label {
+            display: block;
+        }
+
+        .form-row input {
+            width: 100%;
+        }
+
+        .form-action-button {
+            text-align: right;
+        }
+
+        .form-action-button button {
+            background: darkblue;
+            color: white;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-wrapper">
+        <h1 class="form-header">Sign Up</h1>
+
+        <div class="form-body">
+            <form action="#">
+                <div class="form-row">
+                    <label>Your username</label>
+                    <input type="text" placeholder="Enter your name here" />
+                </div>
+                <div class="form-row">
+                    <label>Your Email</label>
+                    <input type="text" placeholder="Enter your email" />
+                </div>
+                <div class="form-row">
+                    <label>Your Password</label>
+                    <input type="password" />
+                </div>
+                <div class="form-row form-action-button">
+                    <button type="submit">Sing Up</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-size: 100% auto;
+    background: linear-gradient(to bottom, rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%);
+}
+
+.wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    text-align: justify;
+
+
+}
+
+.header {
+    text-indent: 15%;
+
+}
+
+.main {
+
+}
