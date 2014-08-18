@@ -1,43 +1,29 @@
+
 .main_table {
-
+    width: 1000px;
 }
-
 .header {
-
+    height: 150px;
 }
-
 .menu {
-
+    min-height: 600px;
+    width: 200px;
 }
-
 .menu h2 {
-
 }
-
 .menu a {
-
 }
-
 .menu a:hover {
-
 }
-
 .content {
-
+    width: 600px;
 }
-
 .content h1 {
-
 }
-
 .content a {
-
 }
-
 .content a:hover {
-
 }
-
 .right {
-
+    width: 200px;
 }
