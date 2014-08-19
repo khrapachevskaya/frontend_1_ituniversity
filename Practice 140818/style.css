@@ -6,21 +6,38 @@
     height: 150px;
 }
 .menu {
+    font-family: arial, sans-serif;
+    font-size: 10pt;
     min-height: 600px;
     width: 200px;
+    background: linear-gradient(to right, rgba(169,202,255,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
 }
 .menu h2 {
+    font-size: 10pt;
+    background: linear-gradient(135deg, rgba(128,171,233,1) 0%,rgba(58,124,221,1) 100%); /* W3C */
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    padding: 7px 0;
 }
 .menu a {
+    border-bottom: 1px solid #3a7cdd;
+    text-indent: 10%;
+    color: #004bc8;
+    display: block;
+    padding: 7px;
 }
 .menu a:hover {
+    background: linear-gradient(to right, rgba(255,189,26,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 .content {
-    font-family: arial;
+    font-family: arial, sans-serif;
     font-size: 10pt;
     padding: 20px 30px;
     width: 600px;
-    background: url("content-bg.gif") repeat scroll rgba(0, 0, 0, 0);
 }
 .content h1 {
     margin: 0;
