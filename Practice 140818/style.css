@@ -1,3 +1,4 @@
+
 .main_table {
     width: 1000px;
 }
@@ -15,9 +16,14 @@
 .menu a:hover {
 }
 .content {
+    font-family: arial;
+    font-size: 10pt;
+    padding: 20px 30px;
     width: 600px;
+    background: url("content-bg.gif") repeat scroll rgba(0, 0, 0, 0);
 }
 .content h1 {
+    margin: 0;
 }
 .content a {
 }
