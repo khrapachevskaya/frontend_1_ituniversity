@@ -1,0 +1,90 @@
+body {
+    background: #ada6a0;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: rockwell;
+    src: local("rockwell"),
+    url(fonts/rockwell.ttf)
+}
+
+.b-container {
+    width: 1024px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+
+.b-container__line {
+    margin: 15px 40px 15px;
+    box-shadow: 0 0 3px 3px #85807c;
+    background: #ffffff;
+    padding: 15px 13px;
+}
+
+.b-header__logo {
+    text-align: center;
+
+}
+
+.b-logo {
+    font-size: 88px;
+    color: #c2c0c0;
+
+}
+
+.b-nav {
+    overflow: hidden;
+
+}
+
+.b-nav__menu {
+    float: left;
+}
+
+.b-menu {
+    margin: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    padding: 5px 35px;
+}
+
+.b-menu__link {
+    font-size: 18px;
+    color: #5b5b5b;
+    text-decoration: none;
+    font-family: rockwell, serif;
+}
+
+.b-nav__search {
+    float: right;
+
+    border: 1px solid #ececec;
+
+}
+
+.b-input {
+    background: #fafafa;
+    height: 30px;
+    width: 260px;
+    padding: 0 0 0 15px;
+    font-family: rockwell, serif;
+    font-style: italic;
+    font-size: 18px;
+    border: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #dcdcdc;
+}
+
+.b-slider__slides {
+    text-align: center;
+}
+
+.b-slide {
+
+}
