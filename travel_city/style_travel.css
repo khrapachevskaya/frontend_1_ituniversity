@@ -2,25 +2,30 @@ body {
     background: #ada6a0;
     margin: 0px;
     padding: 0px;
+    /*вставить картинку белый овал*/
 }
 
 @font-face {
     font-family: rockwell;
     src: local("rockwell"),
     url(fonts/rockwell.ttf)
+    font-family: calibri;
+    src: local("calibri"),
+    url(fonts/calibri.ttf)
 }
 
 .b-container {
     width: 1024px;
-    outline: 1px solid red;
     margin: 0 auto;
 }
 
 .b-container__line {
-    margin: 15px 40px 15px;
+    width: 929px;
+    margin: 15px 45px 15px;
     box-shadow: 0 0 3px 3px #85807c;
     background: #ffffff;
-    padding: 15px 13px;
+    padding: 15px 0px;
+    clear: left;
 }
 
 .b-header__logo {
@@ -49,7 +54,8 @@ body {
 
 .menu__item {
     display: inline-block;
-    padding: 5px 35px;
+    padding: 5px 25px;
+    font-weight: bold;
 }
 
 .b-menu__link {
@@ -61,7 +67,7 @@ body {
 
 .b-nav__search {
     float: right;
-
+    margin-right: 13px;
     border: 1px solid #ececec;
 
 }
@@ -77,9 +83,14 @@ body {
     border: 0;
 }
 
+.b-search__button {
+    float: right;
+}
+
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #dcdcdc;
 }
+
 
 .b-slider__slides {
     text-align: center;
@@ -87,4 +98,102 @@ body {
 
 .b-slide {
 
+}
+
+.b-articles {
+    margin: 0 45px 15px;
+    float: left;
+}
+
+.b-article {
+    text-align: center;
+    width: 224px;
+    height: 375px;
+    box-shadow: 0 0 3px 3px #85807c;
+    background: #ffffff;
+    float: left;
+}
+
+.b-article:nth-child(-n+3) {
+    margin-right: 11px;
+}
+
+.b-article__img {
+    margin: 13px 0 0;
+    width: 205px;
+    height: 157px;
+    text-align: center;
+}
+
+.b-article__text {
+    font-family: rockwell, serif;
+    font-size: 10pt;
+    color: #343433;
+    text-align: justify;
+    margin: 0 11px;
+    text-indent: 37px;
+    line-height: 14px;
+}
+
+.b-content {
+    height: 166px;
+}
+
+.b-content__info {
+    margin: 0 0 0 240px;
+}
+
+.b-content__image {
+    width: 215px;
+    height: 166px;
+    margin: 0 0 0 11px;
+    float: left;
+}
+
+.b-content__header {
+    font-size: 18pt;
+    font-family: rockwell, serif;
+    color: #000000;
+
+}
+
+.b-content__text {
+    font-size: 10pt;
+    font-family: rockwell, serif;
+    color: #1f1f1f;
+    text-indent: 37px;
+    text-align: justify;
+    margin: 14px 11px 19px;
+    line-height: 14px;
+}
+
+a.b-content__link {
+    float: right;
+    vertical-align: bottom;
+    font-size: 10pt;
+    font-family: rockwell, serif;
+    margin: 0 11px 0 0;
+    color: #000000;
+}
+
+.b-container__footer {
+    height: 25px;
+}
+
+.b-footer-menu {
+    vertical-align: top;
+    margin: 0;
+}
+
+.b-footer-menu__item {
+    display: inline-block;
+    margin-right: 14px;
+    font-family: calibri, serif;
+    font-size: 14pt;
+}
+
+.b-footer-menu__link {
+    text-decoration: none;
+    color: #545454;
+    vertical-align: baseline;
 }
