@@ -1,0 +1,47 @@
+body {
+    background-color: #e7e7e8;
+    margin: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.b-page {
+    width: 950px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+
+.b-menu {
+    font-size: 0;
+    padding: 0;
+}
+
+.b-menu__item {
+    display: inline-block;
+    outline: 1px solid red;
+    font-size: 18pt;
+}
+
+.b-menu__link {
+    text-decoration: none;
+
+}
+
+.b-menu__link_current {
+    text-decoration: underline;
+}
+
+.b-breadcrumbs__crumb {
+    display: inline-block;
+}
+
+.b-crumb {
+
+}
+
+.b-crumb_current {
+    text-decoration: none;
+}

@@ -2,7 +2,7 @@ body {
     background-color: #ada6a0;
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     margin: 0px;
     padding: 0px;
     /*вставить картинку белый овал*/
@@ -12,6 +12,7 @@ body {
     font-family: rockwell;
     src: local("rockwell"),
     url(fonts/rockwell.ttf)
+
     font-family: calibri;
     src: local("calibri"),
     url(fonts/calibri.ttf)
@@ -20,6 +21,7 @@ body {
 .b-container {
     width: 1024px;
     margin: 0 auto;
+    outline: 1px solid red;
 }
 
 .b-container__line {
@@ -104,21 +106,6 @@ input[type="submit"] {
     float: right;
     margin: 4px 14px 4px 0;
 }
-/*
-.b-input {
-
-
-
-    padding: 0 0 0 15px;
-    font-family: rockwell, serif;
-    font-style: italic;
-    font-size: 18px;
-    border: 0;
-}
-
-.b-search__button {
-    float: right;
-}*/
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #dcdcdc;
@@ -127,6 +114,7 @@ input[type="submit"] {
 
 .b-slider__slides {
     text-align: center;
+    font-size: 0;
 }
 
 .b-slide {
@@ -134,7 +122,7 @@ input[type="submit"] {
 }
 
 .b-articles {
-    margin: 0 45px 15px;
+    margin: 0 40px;
     float: left;
 }
 
@@ -142,13 +130,14 @@ input[type="submit"] {
     text-align: center;
     width: 224px;
     height: 375px;
+    margin: 0 6px 15px 5px;
     box-shadow: 0 0 3px 3px #85807c;
     background: #ffffff;
     float: left;
 }
 
 .b-article:nth-child(-n+3) {
-    margin-right: 11px;
+    /*margin-right: 11px;*/
 }
 
 .b-article__img {

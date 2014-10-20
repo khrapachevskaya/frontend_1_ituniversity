@@ -1,0 +1,38 @@
+body {
+    background-image: url("image/ginger_1_1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    font-family: calibri, serif;}
+
+.b-page {
+    width: 1366px;
+}
+
+.b-page__contacts {
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin: 15% 10% 0 0;
+    background: rgba(0,0,0,0.4);
+    border-radius: 5%;
+    padding: .75em 2em;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+}
+
+ul {
+    padding: 0;
+    margin-left: 10px;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 300;
+}

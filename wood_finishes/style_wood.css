@@ -1,0 +1,26 @@
+@font-face {
+    font-family: roboto;
+    src: local("roboto"),
+    url(fonts/roboto.ttf)
+}
+
+.b-container {
+
+}
+
+.b-container__metamenu {
+    width: 1230px;
+    outline: 1px solid green;
+    margin: 0 auto;
+}
+
+.b-metamenu {
+    display: inline-block;
+    float: right;
+
+}
+
+.b-container__menu {
+    width: 1230px;
+    outline: 1px solid green;
+}
